@@ -1,0 +1,18 @@
+# 1. Entre na pasta do repositório
+cd MIA–IRBI-Diagnóstico-Territorial-e-Regimes-de-Resiliência
+
+# 2. Puxe as últimas atualizações
+git pull origin main
+
+# 3. Copie os arquivos para dentro da pasta:
+#    → Cole o notebook em: notebooks/piloto_primavera_leste_mia_irbi.ipynb
+#    → Crie o arquivo LICENSE na raiz
+
+# 4. Adicione tudo
+git add LICENSE notebooks/piloto_primavera_leste_mia_irbi.ipynb README.md
+
+# 5. Commit
+git commit -m "feat: adicionado LICENSE MIT + piloto quantitativo de Primavera do Leste"
+
+# 6. Envie para o GitHub
+git push origin main
